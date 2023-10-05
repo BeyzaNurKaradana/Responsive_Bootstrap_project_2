@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Age Start Bootstrap Theme</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-info py-4 bg-white shadow">
+      <div class="container px-5">
+        <a class="navbar-brand fw-bold text-dark fs-5" href="index.html"
+          >Start Bootstrap</a
+        >
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link text-dark " href="index.html">Features</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark " href="about.html">Download</a>
+            </li>
+            <li class="nav-item mx-3">
+              <button
+                type="button"
+                class="btn btn-primary rounded-5 px-3 py-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i class="bi bi-chat-text-fill"></i>
+                Send Feedback
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title fs-5 text-white"
+                        id="exampleModalLabel"
+                      >
+                        Send feedback
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- < class="row gx-5 justify-content-center"> -->
+                      <!-- <div class="col-lg-8 col-xl-6"> -->
+                      <form
+                      >
+                        <div class="form-floating mb-3">
+                          <input
+                            class="form-control"
+                            id="name"
+                            type="text"
+                            placeholder="Enter your name..."
+                            data-sb-validations="required"
+                            data-sb-can-submit="no"
+                          />
+                          <label for="name">Ad Soyad</label>
+                          <div
+                            class="invalid-feedback"
+                            data-sb-feedback="name:required"
+                          >
+                            Ad Soyad gerekli.
+                          </div>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input
+                            class="form-control"
+                            id="email"
+                            type="email"
+                            placeholder="name@example.com"
+                            data-sb-validations="required,email"
+                            data-sb-can-submit="no"
+                          />
+                          <label for="email">Email Adresi</label>
+                          <div
+                            class="invalid-feedback"
+                            data-sb-feedback="email:required"
+                          >
+                            Email gerekli.
+                          </div>
+                          <div
+                            class="invalid-feedback"
+                            data-sb-feedback="email:email"
+                          >
+                            Email geçerli değil.
+                          </div>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input
+                            class="form-control"
+                            id="phone"
+                            type="tel"
+                            placeholder="(123) 456-7890"
+                            data-sb-validations="required"
+                            data-sb-can-submit="no"
+                          />
+                          <label for="phone">Telefon Numarası</label>
+                          <div
+                            class="invalid-feedback"
+                            data-sb-feedback="phone:required"
+                          >
+                            Telefon numarası gerekli
+                          </div>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <textarea
+                            class="form-control"
+                            id="message"
+                            type="text"
+                            placeholder="Enter your message here..."
+                            style="height: 10rem"
+                            data-sb-validations="required"
+                            data-sb-can-submit="no"
+                            data-gramm="false"
+                            wt-ignore-input="true"
+                          ></textarea>
+                          <label for="message">Mesajınız</label>
+                          <div
+                            class="invalid-feedback"
+                            data-sb-feedback="message:required"
+                          >
+                            Mesaj gerekli.
+                          </div>
+                        </div>
+
+                        <div class="d-grid">
+                          <!-- <button
+                            class="btn btn-primary btn-lg disabled"
+                            id="submitButton"
+                            type="submit"
+                          >
+                            Gönder
+                          </button>
+                        </div> -->
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+
+    <section class="py-5 bg-light bg-gradient mt-5">
+      <div class="container mt-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+          <div class="col">
+            <h1 class="display-1 mb-3">Showcase your app beautifully.</h1>
+            <p class="text-muted fs-5 mb-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+              <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg" alt="GooglePlayStore"></a>
+              <a href="#!"><img class="app-badge" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg" alt="AppleStore"></a>
+          </div>
+          </div>
+          <div class="col text-center">
+            <img  width="272" height="541" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png" alt="phone">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
