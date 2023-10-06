@@ -5,3 +5,19 @@
 .app-badge{
     height: 3rem;
 }
+
+.logo{
+    height: 3rem;
+}
+
+.first-container{
+    margin-top: 10rem;
+}
+
+.second-container{
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+.icon-feature{
+    font-size: 4rem;
+}
