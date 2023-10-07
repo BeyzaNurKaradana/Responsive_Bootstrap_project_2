@@ -15,7 +15,7 @@
 }
 
 .second-container{
-    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+    background: linear-gradient(45deg, #2937f0, #1acee2) !important;
 }
 
 .icon-feature{
@@ -23,13 +23,21 @@
 }
 
 .image-container{
-    background-image:url("https://source.unsplash.com/5g41N3uRPf8/1500x800") ;
+    background-image:url("https://venturebeat.com/wp-content/uploads/2021/05/wild-2.jpg?w=1200&strip=all") ;
     position: relative;
     padding: 15rem 0;
     background-position: center;
     background-size: cover;
+    
 }
 
 .sixth-container{
-    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+    background: linear-gradient(45deg, #2937f0, #1acee2) !important;
+    
+}
+
+.icon-feature{
+    background: -webkit-linear-gradient(#2937f0, #1acee2) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
