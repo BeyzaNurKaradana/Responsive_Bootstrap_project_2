@@ -17,178 +17,108 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-info py-4 bg-white shadow">
-      <div class="container px-5">
-        <a class="navbar-brand fw-bold text-dark fs-5" href="index.html"
-          >League of Legends: Wild Rift</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item mx-3">
-              <a class="nav-link text-dark " href="index.html">Genel Bakış</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link text-dark " href="about.html">Güncellemeler</a>
-            </li>
-            <li class="nav-item mx-3">
-              <button
-                type="button"
-                class="btn btn-primary rounded-5 px-3 py-2"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                <i class="bi bi-chat-text-fill"></i>
-                Destek al
-              </button>
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1
-                        class="modal-title fs-5 text-white"
-                        id="exampleModalLabel"
-                      >
-                        Send feedback
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      
-                      <form
-                      >
-                        <div class="form-floating mb-3">
-                          <input
-                            class="form-control"
-                            id="name"
-                            type="text"
-                            placeholder="Enter your name..."
-                            data-sb-validations="required"
-                            data-sb-can-submit="no"
-                          />
-                          <label for="name">Ad Soyad</label>
-                          <div
-                            class="invalid-feedback"
-                            data-sb-feedback="name:required"
-                          >
-                            Ad Soyad gerekli.
-                          </div>
-                        </div>
-                        <div class="form-floating mb-3">
-                          <input
-                            class="form-control"
-                            id="email"
-                            type="email"
-                            placeholder="name@example.com"
-                            data-sb-validations="required,email"
-                            data-sb-can-submit="no"
-                          />
-                          <label for="email">Email Adresi</label>
-                          <div
-                            class="invalid-feedback"
-                            data-sb-feedback="email:required"
-                          >
-                            Email gerekli.
-                          </div>
-                          <div
-                            class="invalid-feedback"
-                            data-sb-feedback="email:email"
-                          >
-                            Email geçerli değil.
-                          </div>
-                        </div>
-                        <div class="form-floating mb-3">
-                          <input
-                            class="form-control"
-                            id="phone"
-                            type="tel"
-                            placeholder="(123) 456-7890"
-                            data-sb-validations="required"
-                            data-sb-can-submit="no"
-                          />
-                          <label for="phone">Telefon Numarası</label>
-                          <div
-                            class="invalid-feedback"
-                            data-sb-feedback="phone:required"
-                          >
-                            Telefon numarası gerekli
-                          </div>
-                        </div>
-                        <div class="form-floating mb-3">
-                          <textarea
-                            class="form-control"
-                            id="message"
-                            type="text"
-                            placeholder="Enter your message here..."
-                            style="height: 10rem"
-                            data-sb-validations="required"
-                            data-sb-can-submit="no"
-                            data-gramm="false"
-                            wt-ignore-input="true"
-                          ></textarea>
-                          <label for="message">Mesajınız</label>
-                          <div
-                            class="invalid-feedback"
-                            data-sb-feedback="message:required"
-                          >
-                            Mesaj gerekli.
-                          </div>
-                        </div>
 
-                        
+
+
+
+    <section class="shadow-sm mb-5 bg-body-tertiary rounded">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand fs-3 fw-bolder" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#information">Özellikler</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="#download">İndirme</a>
+                    </li>
+                    <li class="nav-item">
+                      <form action="https://formsubmit.com/byzkrdn1999@gmail.com" method="post">
+                        <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                          data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                          <i class="bi bi-chat-text-fill"></i>
+                          Bize Ulaş
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                          aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                  Geri Bildirim
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form>
+                                  <div class="mb-3">
+                                    <label for="İsim Soyisim" class="col-form-label">İsim Soyisim</label>
+                                    <input type="text" class="form-control" id="İsim Soyisim" />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="E-mail" class="col-form-label">E-Mail Adres</label>
+                                    <input type="email" class="form-control" id="E-mail" />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="number" class="col-form-label">Telefon Numarası</label>
+                                    <input type="number" class="form-control" id="number" />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button class="btn btn-primary me-5 w-100" type="submit">
+                                  Gönder
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </li>
-          </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </nav>
+    </section>
     
+
+
+
+
 
 
     <section class="first-container mb-4">
       <div class="container">
         <div class="row gx-5 align-items-center justify-content-center">
           <div class="col">
+            <div class="mb-5 mb-lg-0 text-center text-lg-start">
             <h1 class="display-1 mb-3">Şampiyonluk macerasına sen de katıl.</h1>
             <p class="text-muted fs-5 mb-5">Birbirinden farklı yeteneklere sahip karakterlerle oyna rekabetin tadını çıkar!</p>
             <div class="d-flex flex-column flex-lg-row align-items-center">
               <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg" alt="GooglePlayStore"></a>
               <a href="#!"><img class="app-badge" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg" alt="AppleStore"></a>
+            </div>
           </div>
           </div>
           <div class="col text-center">
-            <img  width="272" height="541" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png" alt="phone">
+            <img  width="272" height="541" src="resim.jpg" alt="phone">
           </div>
         </div>
       </div>
@@ -246,33 +176,33 @@
 
 
 
-    <section class="my-5">
+    <section class="my-5" id="information">
       <div class="container">
-        <div class="row align-items-center">
-        <div class="col-4">
-          <img  width="272" height="541" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png" alt="phone">
+        <div class="row align-items-center gx-5">
+        <div class="col-lg-4 order-lg-0   text-center">
+          <img width="272" height="541" src="resim.jpg" alt="phone">
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 order-lg-1  mb-5 mb-lg-0 ">
         <div class="container">
           <div class="row gx-5">
-            <div class="col">
+            <div class="col-md-6 mb-5 text-center text-lg-start">
               <i class="bi bi-globe icon-feature text-gradient d-block mb-3"></i>
               <h3>Çok oyunculu rekabet</h3>
               <p class="text-muted text">Dünyanın farklı yerlerinde bulunan bütün arkadaşlarınla bu deneyime ortak olabilirsin!</p>
             </div>
-            <div class="col">             
+            <div class="col col-md-6 mb-5 text-center text-lg-start">             
               <i class="bi bi-controller icon-feature text-gradient d-block mb-3"></i>
               <h3>Yeni grafikler</h3>
               <p class="text-muted">Yepyeni ve güncellenen grafiklerle oyun heyecanını zirvede tutuyoruz!</p> 
             </div>
           </div>
           <div class="row gx-5">
-            <div class="col">
+            <div class="col-md-6 mb-5 text-center text-lg-start">
               <i class="bi bi-trophy-fill icon-feature text-gradient d-block mb-3"></i>
               <h3>Şampiyonluk ödülleri</h3>
               <p class="text-muted">Edindiğin skorlarla adını şampiyonluk tablosunda görmemen için hiçbir sebep yok!</p>
             </div>
-            <div class="col">
+            <div class="col-md-6 mb-5 text-center text-lg-start">
               <i class="bi bi-award-fill icon-feature text-gradient d-block mb-3"></i>
               <h3>Büyük turnuvalar</h3>
               <p class="text-muted">Birbirinden farklı rekabet türleri içeren turnavalara katılarak kendini kanıtlaman harika bir fırsat!</p>
@@ -289,25 +219,27 @@
 
 
     <section class="bg-light">
-      <div class="container">
-        <div class="row align-items-center  gx-5 p-5">
-          <div class="col">
+      <div class="container px-5">
+        <div class="row align-items-center justify-content-center justify-content-lg-between  gx-5 p-5">
+          <div class="col-12 col-lg-5">
             <div class="px-5">
             <h2 class="display-4 mb-4">Rekabet heyecanını arkadaşlarınla paylaş</h2>
-            <p class="fw-normal text-muted fs-5">Farklı yeteneklere sahip karakterlerden birini seç 5 kişilik arkadaş grubunla heyecana katıl. Her oyun kademesinde sürpriz yetenek ve ödülleri kullan, çılgın bir takım savaşıyla heyecanını katla.</p>
+            <p class="fw-normal text-muted fs-5 mb-5 mb-lg-0">Farklı yeteneklere sahip karakterlerden birini seç 5 kişilik arkadaş grubunla heyecana katıl. Her oyun kademesinde sürpriz yetenek ve ödülleri kullan, çılgın bir takım savaşıyla heyecanını katla.</p>
             </div>
           </div>
-          <div class="col">
-            <img width="588" height="588" class="rounded-circle" src="https://assets-prd.ignimgs.com/2022/06/14/lol-wild-rift-button-2-1655174382426.jpg" alt="">
+          <div class="col-sm-8 col-md-6">
+            <div class="px-5 px-sm-0">
+            <img width="588" height="588" class="rounded-circle img-fluid" src="https://assets-prd.ignimgs.com/2022/06/14/lol-wild-rift-button-2-1655174382426.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="image-container">
+    <section class="image-container" id="download">
       <div class="container px-5">
         <h2 class="text-white display-1 mb-5"> Beklemeyi bırak <br> Sende eğlenceye katıl!</h2>
-        <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
+        <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Ücretsiz İndir</a>
       </div>
     </section>
 
@@ -318,7 +250,7 @@
       <div class="container ">
         <h2 class="text-white text-center p-5"> Şimdi dahil ol!</h2>
       </div>
-      <div class="text-center pb-5">
+      <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center pb-5 ">
         <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg" alt="GooglePlayStore"></a>
         <a href="#!"><img class="app-badge" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg" alt="AppleStore"></a>
       </div>
