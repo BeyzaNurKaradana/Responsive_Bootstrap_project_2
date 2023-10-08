@@ -64,3 +64,28 @@
   color: gray !important;
 }
 
+
+
+.figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape-1{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #1ea8e5;
+    bottom: 15%;
+    left: 10%;
+}
+
+.shape-2{
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: #1ea8e5;
+    top: 15%;
+    right: 10%;
+}
